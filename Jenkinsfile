@@ -7,6 +7,9 @@ pipeline {
             steps {
                 sh 'python /srv/test/test.py'
             }
+            step {
+                sh 'echo OK'
+            }
         }
     }
 }
