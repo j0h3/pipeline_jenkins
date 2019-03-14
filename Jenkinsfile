@@ -1,11 +1,11 @@
 pipeline {
     agent {
-        docker { image 'appli-python' }
+        docker { image 'img-python' }
     }
     stages {
         stage('Launch') {
             steps {
-                sh 'python test.py'
+                sh 'python /srv/test/test.py'
             }
         }
     }
