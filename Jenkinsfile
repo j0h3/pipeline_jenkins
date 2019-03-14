@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Echo') {
             steps {
-                sh 'echo OK'
+                sh 'whoami'
             }
         }
     }
