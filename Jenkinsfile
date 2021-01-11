@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'img-python' }
-    }
+    agent { dockerfile true }
     stages {
         stage('Launch') {
             steps {
