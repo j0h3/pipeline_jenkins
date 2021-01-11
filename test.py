@@ -1,3 +1,3 @@
 #/usr/bin/python
 
-print('toto')
+print('toto','tata')
